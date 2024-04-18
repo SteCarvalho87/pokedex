@@ -17,36 +17,50 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/pokedex.css">
-
+    <link rel="stylesheet" href="assets/css/detail.css">
     <title>Pokemon Detail</title>
 </head>
 <body>
-    <section class="content">
-        <h1>Nome do Pokemon/h1>
+    <div class="back">
+        <button id="back" type="button">
+                Back
+        </button>
+    </div>
+        
+    <h1>Nome do Pokemon</h1>
 
-        <div class="card">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="">About</a>
-                    </li>
-                    <li>
-                        <a href="">Base Stats</a>
-                    </li>
-                    <li>
-                        <a href="">Evolution</a>
-                    </li>
-                    <li>
-                        <a href="">Moves</a>
-                    </li>
-                </ul>
-            </nav>
-
+    <div class="card">
+        <nav>
+            <a href="#about">About</a>
+            <a href="#base">Base Stats</a>
+            <a href="#evolution">Evolution</a>
+            <a href="#moves">Moves</a>
+        </nav>
+        
+        <div id="about">
+            <p>características</p>
+            <h3>Breeding</h3>
+            <p>características</p>
         </div>
-    </section>
+        <div id="base">
+            <p>características</p>
+            <h3>Type Defenses</h3>
+            <p>características</p>
+            <p>características</p>
+        </div>
+        <div id="evolution">
+            <p>características</p>
+        </div>
+        <div id="moves">
+            <p>características</p>
+            <p>características</p>
+            <p>características</p>
+            <p>características</p>
+        </div>
+        
+    
 
     <!-- Javascript local -->
-    <!-- A orem de importação faz diferença, pois primeiro criamos a classe dos pokemons, depois fazemos a importação e criação dos objetos, para por fim convertemos em uma lista para o html -->
     <script src="assets/js/pokemon-model.js"></script>
     <script src="assets/js/poke-api.js"></script>
     <script src="assets/js/main.js"></script>

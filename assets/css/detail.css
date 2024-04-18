@@ -1,0 +1,27 @@
+body{
+    background-color: brown;
+}
+
+.card{
+    background-color: beige;
+    border-radius: 20px;
+}
+
+.card nav a{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+
+.card nav a:hover{
+    border-bottom: 2px solid blue;
+}
+
+.card div{
+    padding: 15px;
+    display: none;
+}
+
+.card div:target{
+    display:block;
+}
